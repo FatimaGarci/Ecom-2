@@ -66,7 +66,7 @@ export default function Home() {
                     <p className="price">$35</p>
                 </div>
             </div>
-            <Link to="/products" className="button"> SOLD OUT PRODUCTS </Link>
+            <Link to="/filter" className="button"> SOLD OUT PRODUCTS </Link>
             {/* <a href="products.html" className="button">VIEW ALL PRODUCTS</a> */}
         </div>
     </main>
@@ -105,7 +105,7 @@ export default function Home() {
                     <p className="price">$15.00</p>
                 </div>
             </div>
-            <Link to="/products" className="button"> VIEW ALL PRODUCTS </Link>
+            <Link to="/filter" className="button"> VIEW ALL PRODUCTS </Link>
         </div>
     </section>
 
