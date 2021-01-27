@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* Filter */
+.form-container {
+  margin: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+.form-container #filterSelect {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: .2rem;
+  border-bottom: 2px solid #2f2f2f;
+  border-top: 2px solid #2f2f2f;
+}
+
+.form-container #priceSelect {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: .2rem;
+  border-bottom: 2px solid #2f2f2f;
+  border-top: 2px solid #2f2f2f;
+}
+.form-container .filters{
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Figure*/
+
+.sticky-Img {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: -2;
+}
+
+/* Main contaainers */
+#container > div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 23px;
+  padding: 32px 70px;
+}
+
+.product {
+  /* border: 1px solid #aaa; */
+  background-color: #fdfdfdd2;
+  box-shadow: 1px 1px 3px rgba(133, 129, 129, 0.74);
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+div .product-img{
+  width: 100%;
+  height: 320px;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .3rem;
+  font-size: 1rem;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Caveat';
+}
+
+.price {
+  color: rgb(109, 107, 107);
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  /* padding: .4rem 0; */
+}
+
+p {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  font-family: 'Caveat';
+  /* letter-spacing: .1rem; */
+}

@@ -1,0 +1,197 @@
+{
+    "items": [
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/Rainfall-Cucumber-crop-copy_800x1200.jpg?v=1581871094",
+            "title": "RAINFALL | FACE SERUM",
+            "description": "Instantly drenches skin with hydration, immediately delivering replenishing and plumping benefits for a more bouncy, youthful-looking complexion.",
+            "price": "$12.00",
+            "type": "FACE SERUM",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/Raydiate_serum_hero_800x1200.jpg?v=1581980154",
+            "title": "RAYDIATE | FACE SERUM",
+            "description": "A specially designed serum that is powerfully formulated with a 15% Vitamin C blend to enhance skin radiance for a brighter.",
+            "price": "$13.50",
+            "type": "FACE SERUM",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/FR_Cactus_Serum_Hero_800x1200.jpg?v=1596037359",
+            "title": "CACTUS | FACE SERUM",
+            "description": "Give your thirsty skin the instant moisture boost it’s craving with an ultra-hydrating shot of Cactus Flower an extra dose of antioxidants for parched skin on dry days.",
+            "price": "$15.00",
+            "type": "FACE SERUM",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/FR_TumericSerum_Hero_800x1200.jpg?v=1596037771",
+            "title": "TURMERIC | FACE SERUM",
+            "description": "Add a powerful boost of phytonutrients to your skincare routine with a brightening shot of Turmeric. ",
+            "price": "$9.00",
+            "type": "FACE SERUM",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/1338/0845/products/Cooling-Globes-in-UC_800x1200.jpg?v=1609790991",
+            "title": "cooling facial globes",
+            "description": "Chill out and relax with this ultra-cooling facial globe set that will take your skincare routine to the next level.",
+            "price": "$15.00",
+            "type": "ACCESSORIES",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/1338/0845/products/DryBrushAbundance1_800x1200.jpg?v=1595435251",
+            "title": "skincare brush",
+            "description": "Take soft skin to the next level. Amp up your glow with a plush and polishing skincare brush that gently sweeps away impurities.",
+            "price": "$7.50",
+            "type": "ACCESSORIES",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/1338/0845/products/CP_Forthray_117-copy_800x1200.jpg?v=1569441043",
+            "title": "opalite roller",
+            "description": " Made from crystal opalite, this facial roller is an essential tool to any skincare routine. Gently massage upward with this roller to help cool and soothe puffiness.",
+            "price": "$15.00",
+            "type": "ACCESSORIES",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/1338/0845/products/FRB-Scrunchies-4_2_800x1200.jpg?v=1603297239",
+            "title": "scrunchies hair",
+            "description": "Our new neutral-hued velour scrunchies are the perfect hair accessories for your skincare routine.",
+            "price": "$7.50",
+            "type": "ACCESSORIES",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/BodyMilk_Avocado_800x1200.jpg?v=1609802707",
+            "title": "AVOCADO | BODY MILK",
+            "description": "Hydrate thirsty skin with a replenishing dose of lightweight moisture. Formulated just for the body, Avocado Body Milk works to moisturize skin. ",
+            "price": "$13.50",
+            "type": "BODY MILK",
+            "cost": "medium"
+        }, 
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/BodyMilk_WhitePeach_800x1200.jpg?v=1609802726",
+            "title": "PEACH | BODY MILK",
+            "description": "Hydrate thirsty skin with a skin-softening dose of lightweight moisture. Formulated just for the body, White Peach Body Milk works to boost moisture.",
+            "price": "$13.50",
+            "type": "BODY MILK",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/BodyMilk_PinkGrapefruit_800x1200.jpg?v=1609802716",
+            "title": "GRAPEFRUIT | BODY MILK",
+            "description": "Hydrate thirsty skin with a brightening dose of lightweight moisture. Formulated just for the body, Pink Grapefruit Body Milk works to give skin a healthy glow.",
+            "price": "$13.50",
+            "type": "BODY MILK",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/BodyMilk_Coconut_800x1200.jpg?v=1609802710",
+            "title": "COCONUT | BODY MILK",
+            "description": "Just your friendly neighborhood monochromatic look! This set includes the Coast to Coral Palette and 2 matching Ultra Glossy Lips.",
+            "price": "$13.50",
+            "type": "BODY MILK",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/1338/0845/products/RoseQuartz_PDP_800x1200.jpg?v=1582741823",
+            "title": "rose quartz roller",
+            "description": "Made from real rose quartz, this facial roller is an essential tool to any skincare routine. A gentle massage with this roller will help cool and soothe puffiness.",
+            "price": "$13.50",
+            "type": "ACCESSORIES",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/1338/0845/products/Pink-Cooling-Facial-Globes-in-UC-on-Color-Main_800x1200.jpg?v=1611174228",
+            "title": "cooling facial globes",
+            "description": "Chill out and relax with this ultra-cooling facial globe set that will take your skincare routine to the next level.",
+            "price": "$15.00",
+            "type": "ACCESSORIES",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/2020_10_26-FRB1824_800x1200.jpg?v=1605069296",
+            "title": "MAKEUP REMOVING WIPES",
+            "description": " Made with plant-based fibers, these oil-free and fragrance-free wipes gently dissolve even the most stubborn makeup, leaving skin clean and refreshed .",
+            "price": "$7.50",
+            "type": "ACCESSORIES",
+            "cost": " "
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/1338/0845/products/SolMitts_800x1200.jpg?v=1595540973",
+            "title": "exfoliating mitt",
+            "description": "Skip the day spa! This body polishing mitt buffs away dull, dry skin to achieve healthy, radiant, smooth skin.",
+            "price": "$5.50",
+            "type": "ACCESSORIES",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/Rose-Hip-Oil-2_PDP-copy_800x1200.jpg?v=1582737949",
+            "title": "ROSE HIP | FACE OIL",
+            "description": "Rich in vitamins, essential fatty acids, and antioxidants, Rose Hip oil promotes a healthy, more even-looking complexion.",
+            "price": "$7.50",
+            "type": "FACE OIL",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/AfterHours_hero_800x1200.jpg?v=1601073894",
+            "title": "DETOX | FACE OIL",
+            "description": "Treat while you sleep! After Hours is formulated with Bamboo Charcoal, Salicylic Acid, Tea Tree, and Watermelon Seed.",
+            "price": "$7.50",
+            "type": "FACE OIL",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/GlowUp_Oil_hero_800x1200.jpg?v=1596232859",
+            "title": "GLOW UP | FACE OIL",
+            "description": "Formulated with Maracuja, Prickly Pear, Jojoba, and Vitamin C, Glow Up is loaded with antioxidants and vitamins for the ultimate radiant.",
+            "price": "$7.50",
+            "type": "FACE OIL",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/1338/0845/products/FR_Cactus_Serum_Hero_800x1200.jpg?v=1596038391",
+            "title": "cactus | FACE OIL",
+            "description": "A comforting drop of moisture to nurture skin. Formulated with Strawberry Seed Oil, Marshmallow, and Lotus Flower this formula will supplement.",
+            "price": "$7.50",
+            "type": "FACE OIL",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/BigDetox_hero_800x1200.jpg?v=1601073928",
+            "title": "DETOX MUD | face mask",
+            "description": "Hit the reset button and enjoy refreshed, smoother skin with this deeply detoxifying mud mask. Formulated with potent Bamboo Charcoal.",
+            "price": "$9.00",
+            "type": "FACE MASK",
+            "cost": "low"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/soak-it-up_1_800x1200.jpg?v=1573001148",
+            "title": "SOAK IT UP | FACE MASK",
+            "description": "dive into deep hydration with this nourishing cream mask. formulated with hyaluronic acid, marine algae, aloe, and vitamin e, soak it up rejuvenates dry.",
+            "price": "$12.00",
+            "type": "FACE MASK",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/2019_12_12-PDP9235999-copy_6430675d-c55a-41c3-870f-ec8976d4c381_800x1200.jpg?v=1576775028",
+            "title": "AVOCADO | FACE MASK",
+            "description": "Avocado Superfood Nourishing Mask is uniquely designed to give your skin a healthy boost. Power-packed with vitamins, minerals and antioxidants for an overall.",
+            "price": "$12.00",
+            "type": "FACE MASK",
+            "cost": "medium"
+        },
+        {
+            "img": "https://cdn.shopify.com/s/files/1/0017/9027/9798/products/AHA_texture-copy2_800x1200.jpg?v=1579111050",
+            "title": "A-HA MOMENT | FACE MASK",
+            "description": " Our A-HA Moment Exfoliating Enzyme Mask is the must have, at-home facial to instantly resurface skin. Powered by a blend of Alpha Hydroxy Acids.",
+            "price": "$12.00",
+            "type": "FACE MASK",
+            "cost": "medium"
+        }
+
+    ]
+}

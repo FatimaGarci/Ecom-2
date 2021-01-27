@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+/* Slider */
+.slider{
+	width:1000px;
+	height:500px;
+	margin:0 auto;
+    position:relative;
+}
+.slider ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.slider ul li{
+	width:1000px;
+	height:400px;
+	position:absolute;
+	top:0;
+	left:0;
+	animation-iteration-count:infinite;
+	animation-duration:24s;
+}
+
+
+.slider ul li:nth-child(1){
+	animation-name:slider;
+	animation-delay:-3s;
+}
+.slider ul li:nth-child(2){
+	animation-name:slider;
+	animation-delay:5s;
+	opacity:0;
+}
+.slider ul li:nth-child(3){
+	animation-name:slider;
+	animation-delay:13s;
+	opacity:0;
+}
+
+
+@keyframes slider{
+	0%{
+		opacity:0;
+	}
+	20.83%{
+		opacity:1;
+	}
+	33.33%{
+		opacity:1;
+	}
+	45.83%{
+		opacity:0;
+	}
+	100%{
+		opacity:0;
+	}	
+}
+
+
+/* Best Sellers */
+.section-heading{
+	margin: 0 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.section-heading h2{
+	font-family: 'Caveat';
+	text-align: center;
+	color: #000000;
+	width: 40%;
+	letter-spacing: .3rem;
+	font-size: 2rem;
+}
+.line{
+	background-color: #ffc7c7;
+	width: 100%;
+	height: .20rem;
+}
+.products-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.Products{
+	width: 20rem;
+	height: 35rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.Products  img{
+	width: 90%;
+	max-width: 100%;
+}
+.Products h3{
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1rem;
+	text-align: center;
+	font-family: 'Caveat';
+}
+.Products .price {
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1rem;
+	padding: .4rem 0;
+}
+	  /* BUTTON */
+.button{
+	font-size: 1rem;
+	color: #fff;
+	background-color: #E6B0AE;
+	border: 2px solid #bdb8b8;
+	padding: .8rem 3rem;
+	margin-top: 1rem;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+/* Ads for the home page */
+.Ads{
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+}
+.Ads  img{
+	width: 45%;
+	float: right;
+	margin-right: 2.7rem;
+}
+
+/* Skincare Value Sets Section */
+.skincare-value-sets{
+	margin-top: 30rem;
+}
+/* More Beauty For You Section */
+.ads-section{
+	text-align: center;
+}
+.ads-section h2{
+	margin-top: 8.5rem;
+	margin-bottom: 1rem;
+	font-family: 'Caveat';
+	text-align: center;
+	color: #000000;
+	letter-spacing: .4rem;
+	font-size: 2.4rem;
+}
+.ads-section img{
+	width: 20%;
+	padding-right: 1.5rem;
+}
+.shipping-ad{
+	box-sizing: content-box;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 13rem;
+	padding-right:13rem;
+}
+.worldWide-shipping{
+	margin-top: 4rem;
+	width: 100%;
+	height: 9rem;
+	color: #fff;
+	background-color: #ffb0b0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Caveat';
+	letter-spacing: .4rem;
+}
+.worldWide-shipping p{
+	text-align: center;
+}
