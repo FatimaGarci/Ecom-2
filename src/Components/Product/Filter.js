@@ -24,36 +24,52 @@ class Filter extends React.Component {
         const { type, cost } = this.state;
         return (
             <React.Fragment>
-                <div className="form-container">
-                    <div className="gridfilter">
-                        <label className="filters">
-                            Type:
-                         </label>
-                        <select id="filterSelect" value={type} onChange={this.handlePriceDropdownSelect}>
-                            <option value="default">All</option>
-                            <option value="FACE MASK">FACE MASK</option>
-                            <option value="BODY MILK">BODY MILK</option>
-                            <option value="FACE SERUM">FACE SERUM</option>
-                            <option value="FACE OIL">FACE OIL</option>
-                            <option value="ACCESSORIES">ACCESSORIES</option>
-                        </select>
+                <div className="checkbox">
+                    <div className="checkbox-filter" value={type} onChange={this.handlePriceDropdownSelect}>
+                    <label class="container-check">All
+                        <input type="radio" name="radio" value="default" />
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container-check" >FACE MASK
+                        <input type="radio" name="radio" value="FACE MASK" />
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container-check">MOISTURISER
+                        <input type="radio" name="radio" value="BODY MILK"/>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container-check">FACE SERUM
+                            <input type="radio" name="radio" value="FACE SERUM"/>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container-check">FACE OIL
+                            <input type="radio" name="radio" value="FACE OIL"/>
+                        <span class="checkmark"></span>
+                    </label>                    <label class="container-check">ACCESSORIES
+                            <input type="radio" name="radio" value="ACCESSORIES"/>
+                        <span class="checkmark"></span>
+                    </label>
                     </div>
 
-                    <div>
-                        <label className="filters">
-                            Price:
-                         </label>
-                        <select id="priceSelect" value={cost} onChange={this.handlePriceDropdownSelect}>
-                            <option value="default">All</option>
-                            <option value="low">$0 - $10</option>
-                            <option value="medium">$10 - $15</option>
-                        </select>
+                    <div className="checkbox-filter" value={cost} onChange={this.handlePriceDropdownSelect}>
+                    {/* <label class="container-check">All
+                        <input type="radio" name="radio" />
+                        <span class="checkmark"></span>
+                    </label> */}
+                    <label class="container-check">$0 - $10
+                        <input type="radio" name="radio"  value="low"/>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container-check">$11 - $15
+                        <input type="radio" name="radio" value="medium"/>
+                        <span class="checkmark"></span>
+                    </label>
                     </div>
                 </div>
-{/* 
-                <section class="sticky-Img">
-                    <img src="./img/Unique-UB.png" alt="Avatar" />
-                </section> */}
+
+
+
+
 
                 <section id="container" >
                     <div className="filter">

@@ -1,71 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
-
 /* Slider */
-.slider{
-	width:1000px;
-	height:500px;
-	margin:0 auto;
-    position:relative;
-}
-.slider ul{
-	margin:0;
-	padding:0;
-	list-style:none;
-}
-.slider ul li{
-	width:1000px;
-	height:400px;
-	position:absolute;
-	top:0;
-	left:0;
-	animation-iteration-count:infinite;
-	animation-duration:24s;
+
+.slider {
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
 }
 
-
-.slider ul li:nth-child(1){
-	animation-name:slider;
-	animation-delay:-3s;
-}
-.slider ul li:nth-child(2){
-	animation-name:slider;
-	animation-delay:5s;
-	opacity:0;
-}
-.slider ul li:nth-child(3){
-	animation-name:slider;
-	animation-delay:13s;
-	opacity:0;
+.slider ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
+.slider ul li {
+	width: 1000px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation-iteration-count: infinite;
+	animation-duration: 24s;
+}
 
-@keyframes slider{
-	0%{
-		opacity:0;
+.slider ul li:nth-child(1) {
+	animation-name: slider;
+	animation-delay: -3s;
+}
+
+.slider ul li:nth-child(2) {
+	animation-name: slider;
+	animation-delay: 5s;
+	opacity: 0;
+}
+
+.slider ul li:nth-child(3) {
+	animation-name: slider;
+	animation-delay: 13s;
+	opacity: 0;
+}
+
+@keyframes slider {
+	0% {
+		opacity: 0;
 	}
-	20.83%{
-		opacity:1;
+	20.83% {
+		opacity: 1;
 	}
-	33.33%{
-		opacity:1;
+	33.33% {
+		opacity: 1;
 	}
-	45.83%{
-		opacity:0;
+	45.83% {
+		opacity: 0;
 	}
-	100%{
-		opacity:0;
-	}	
+	100% {
+		opacity: 0;
+	}
 }
-
 
 /* Best Sellers */
-.section-heading{
+
+.section-heading {
 	margin: 0 4rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.section-heading h2{
+
+.section-heading h2 {
 	font-family: 'Caveat';
 	text-align: center;
 	color: #000000;
@@ -73,17 +76,20 @@
 	letter-spacing: .3rem;
 	font-size: 2rem;
 }
-.line{
+
+.line {
 	background-color: #ffc7c7;
 	width: 100%;
 	height: .20rem;
 }
-.products-container{
+
+.products-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-.Products{
+
+.Products {
 	width: 20rem;
 	height: 35rem;
 	display: flex;
@@ -91,25 +97,30 @@
 	justify-content: center;
 	align-items: center;
 }
-.Products  img{
+
+.Products img {
 	width: 90%;
 	max-width: 100%;
 }
-.Products h3{
+
+.Products h3 {
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1rem;
 	text-align: center;
 	font-family: 'Caveat';
 }
+
 .Products .price {
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1rem;
 	padding: .4rem 0;
 }
-	  /* BUTTON */
-.button{
+
+/* BUTTON */
+
+.button {
 	font-size: 1rem;
 	color: #fff;
 	background-color: #E6B0AE;
@@ -120,26 +131,33 @@
 	left: 50%;
 	transform: translate(-50%);
 }
+
 /* Ads for the home page */
-.Ads{
+
+.Ads {
 	margin-top: 10rem;
 	margin-bottom: 5rem;
 }
-.Ads  img{
+
+.Ads img {
 	width: 45%;
 	float: right;
 	margin-right: 2.7rem;
 }
 
 /* Skincare Value Sets Section */
-.skincare-value-sets{
+
+.skincare-value-sets {
 	margin-top: 30rem;
 }
+
 /* More Beauty For You Section */
-.ads-section{
+
+.ads-section {
 	text-align: center;
 }
-.ads-section h2{
+
+.ads-section h2 {
 	margin-top: 8.5rem;
 	margin-bottom: 1rem;
 	font-family: 'Caveat';
@@ -148,18 +166,21 @@
 	letter-spacing: .4rem;
 	font-size: 2.4rem;
 }
-.ads-section img{
+
+.ads-section img {
 	width: 20%;
 	padding-right: 1.5rem;
 }
-.shipping-ad{
+
+.shipping-ad {
 	box-sizing: content-box;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 13rem;
-	padding-right:13rem;
+	padding-right: 13rem;
 }
-.worldWide-shipping{
+
+.worldWide-shipping {
 	margin-top: 4rem;
 	width: 100%;
 	height: 9rem;
@@ -172,6 +193,89 @@
 	font-family: 'Caveat';
 	letter-spacing: .4rem;
 }
-.worldWide-shipping p{
+
+.worldWide-shipping p {
 	text-align: center;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media only screen and (device-width: 768px) {
+	/* Slider */
+	.slider {
+		width: 115%;
+		height: 600px;
+		margin-top: 50px;
+		/* position: relative; */
+	  }
+	  .slider ul li {
+		width: 100%;
+		/* height: 400px; */
+		position: absolute;
+		top: 0;
+		left: 0;
+		animation-iteration-count: infinite;
+		animation-duration: 24s;
+	  }
+	  
+	  .slider img {
+		width: 90%;
+		height: 590px;
+	  }
+	  .Ads {
+		margin-top: 8rem;
+		margin-bottom: 1rem;
+	}
+	  .Ads img {
+		width: 40%;
+		float: right;
+	}
+	.skincare-value-sets {
+		margin-top: 20rem;
+	}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+	/* Slider */
+	.slider {
+		width: 100%;
+		height: 300px;
+		margin-top: 40px;
+		padding-left: 3rem;
+		/* position: relative; */
+	  }
+	  .slider ul li {
+		width: 100%;
+	  }
+	  
+	  .slider img {
+		width: 90%;
+		height: 300px;
+	  }
+	  .section-heading h2 {
+		width: 40%;
+		letter-spacing: .3rem;
+		font-size: 1.50rem;
+	}
+	  .Ads img {
+		width: 80%;
+	}
+	.ads-section h2 {
+		margin-top: 8.5rem;
+		margin-bottom: 0rem;
+		letter-spacing: .4rem;
+		font-size: 1.50rem;
+	}
+
+.shipping-ad {
+	box-sizing: content-box;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
 }
