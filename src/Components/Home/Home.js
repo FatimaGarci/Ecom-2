@@ -42,7 +42,7 @@ export default function Home() {
                     <p className="price">$25</p>
                 </div>
                 <div className="Products">
-                    <img src="https://d1av6cg597bk68.cloudfront.net/variants/spree/spree/images/1470/original/oilcontrol_packshot_(1)_(1)_(1)_(1).png/cd36d6e3b06a63b069065ee1fa924a94e3ae785b785ad4e7fe8258c1efa4229f"
+                    <img src="https://imgix.bustle.com/uploads/image/2018/11/20/ddaf44f3-49b7-42e2-9d21-3b8dfc49aad9-smwsvblifestyle-7.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg"
                         alt="Snow Serum" />
                     <h3>Snow Mushroom Water Serum</h3>
                     <p className="price">$35</p>

@@ -67,10 +67,6 @@ class Filter extends React.Component {
                     </div>
                 </div>
 
-
-
-
-
                 <section id="container" >
                     <div className="filter">
                         {items.items.map(item => {

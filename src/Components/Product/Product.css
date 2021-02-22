@@ -40,7 +40,7 @@
 }
 
 .product {
-  /* border: 1px solid #aaa; */
+  border: 1px solid #aaa;
   background-color: #fdfdfdd2;
   box-shadow: 1px 1px 3px rgba(133, 129, 129, 0.74);
   cursor: pointer;
@@ -57,7 +57,7 @@ div .product-img{
   text-align: center;
   letter-spacing: .3rem;
   font-size: 1rem;
-  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Indie Flower', cursive;
   font-family: 'Caveat';
 }
 
@@ -66,7 +66,7 @@ div .product-img{
   font-size: 1rem;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-  /* padding: .4rem 0; */
+  padding: .4rem 0;
 }
 
 p {
@@ -75,8 +75,44 @@ p {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Caveat';
-  /* letter-spacing: .1rem; */
+  letter-spacing: .1rem;
 }
+
+/* Button */
+.product-btns{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.4rem;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+.btn-cart, .btn-buy{
+  background: transparent;
+  border: 1px solid black;
+  padding: 0.8rem 0;
+  width: 125px;
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition: all 0.6s ease;
+}
+.btn-cart{
+  background: black;
+  color: white;
+}
+.btn-cart:hover{
+  background: var(--carribean-green);
+}
+.btn-buy{
+  background: white;
+}
+.btn-buy:hover{
+  background: var(--carribean-green);
+  color: #fff;
+}
+
+
 /* ================================= 
   Media Queries
 ==================================== */
