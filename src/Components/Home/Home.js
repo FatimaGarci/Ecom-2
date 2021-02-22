@@ -42,7 +42,7 @@ export default function Home() {
                     <p className="price">$25</p>
                 </div>
                 <div className="Products">
-                    <img src="https://imgix.bustle.com/uploads/image/2018/11/20/ddaf44f3-49b7-42e2-9d21-3b8dfc49aad9-smwsvblifestyle-7.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg"
+                    <img src="https://lh3.googleusercontent.com/proxy/pPl8BB8Y38qwwW6e8MbQDXNNL7G1n45sEQI8fjqV-u_XNmgyxPO7XGlPkwYIyon4uEGHv2XvaI6On0ujmBEtM4uVKfKQRameE-mQOCLwYQMzsoMkrJ9-O0x0EG_rMVEC63QpL3a6gX7_d6tjE21N7c57v6wG7D53LUcwbdP_ICygL8EOsFi6o2Imjg"
                         alt="Snow Serum" />
                     <h3>Snow Mushroom Water Serum</h3>
                     <p className="price">$35</p>
