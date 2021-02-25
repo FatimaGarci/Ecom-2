@@ -42,7 +42,7 @@ export default function Home() {
                     <p className="price">$25</p>
                 </div>
                 <div className="Products">
-                    <img src="https://lh3.googleusercontent.com/proxy/pPl8BB8Y38qwwW6e8MbQDXNNL7G1n45sEQI8fjqV-u_XNmgyxPO7XGlPkwYIyon4uEGHv2XvaI6On0ujmBEtM4uVKfKQRameE-mQOCLwYQMzsoMkrJ9-O0x0EG_rMVEC63QpL3a6gX7_d6tjE21N7c57v6wG7D53LUcwbdP_ICygL8EOsFi6o2Imjg"
+                    <img src="https://www.charlottesbook.com/wp-content/uploads/2018/08/snow-mushroom-water-serum-300x300.png"
                         alt="Snow Serum" />
                     <h3>Snow Mushroom Water Serum</h3>
                     <p className="price">$35</p>
